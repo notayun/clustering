@@ -1,0 +1,6 @@
+Sample Technique,Random Forest,Logistic Regression,Naive Bayes,Decision Trees,KNN
+Simple Random Sampling,0.987,0.8831,0.7013,0.961,0.8701
+Systematic Sampling,1.0,0.8926,0.745,1.0,0.9329
+Cluster Sampling,1.0,0.967,1.0,1.0,0.989
+Stratified Sampling,1.0,0.903,0.7239,0.9925,0.9552
+Bootstrap Sampling,1.0,0.925,0.75,0.9625,0.9375

@@ -1,81 +1,36 @@
-# Clustering-Ayun-102167007
-
-# Clustering Assignment using PyCaret
-
-This repository contains the implementation of different clustering algorithms on the Pokemon dataset using PyCaret. The goal is to explore the performance of clustering techniques with various pre-processing methods and evaluate them on different metrics.
-
-## Dataset
-
-The dataset used for this clustering assignment revolves around Pokemon, capturing information about various Pokemon species.
-
-## Clustering Techniques
-
-1. **K Means Clustering**
-2. **Hierarchical Clustering**
-3. **Birch clustring**
-
-## Evaluation Parameters
-
-The clustering techniques are evaluated based on the following parameters:
-
-1. **Silhouette Score**
-2. **Calinski-Harabasz Index**
-3. **Davies-Bouldin Index**
-
-## Pre-Processing Techniques
-
-Various pre-processing techniques are applied to the data before clustering:
-
-Various pre-processing techniques are applied to the data before clustering:
-
-1. **No Preprocessing:** Using the raw data without any pre-processing.
-2. **Normalization:** Scaling the features to a standard range.
-3. **PCA (Principle Component Analysis):** Reducing dimensionality using PCA.
-4. **Transform:** Applying a transformation to the data.
-5. **Scale:** Scaling the data using standard scaling.
-6. **Normalization + Transformation:** Combining normalization and transformation techniques.
-7. **Normalization + Transformation + PCA:** Combining normalization, transformation, and PCA techniques.
-
-## Repository Structure
-
-- **`notebooks/`:** Jupyter notebooks containing the code for each clustering technique and pre-processing method.
-- **`data/`:** Folder containing the Pokemon dataset.
-- **`results/`:** Folder containing the results and visualizations.
-- **`README.md`:** This file providing an overview of the assignment.
-
-## Getting Started
-
-1. Clone this repository:
-
-    ```bash
-    git clone https://github.com//clustering-assignment.git](https://github.com/Rohan1405/clustering-Rohan-102103108
-    cd clustering-assignment
-    ```
+# Sampling_Ayun_102167007
 
 
 
-2. Explore the Jupyter notebooks  to understand the code and results.
+## Overview
 
-3. Run the notebooks to reproduce the clustering experiments.
+Sampling is a crucial method employed in data analysis to extract insights about a population without the need to analyze every individual. In the context of fraud detection, an initial dataset imbalance of 763 non-fraudulent cases and only 9 fraudulent cases prompted the implementation of an oversampling approach. This involved generating additional instances of the minority class (fraudulent cases) to achieve a balanced dataset, consolidated into a single data frame.
 
-## Results
+## Sampling Techniques Utilized
 
-1. Kmeans Clustering
-   
-   <img src="kmeans.png" width="600" height="400" alt="KMeans Image"></img>
+1. **Simple Random Sampling:**
+   - Random selection of samples from the population.
 
-2. Hierarchical clustering
-  
-   <img src="Hierarchical clustering.png" width="600" height="400" alt="KMeans Image"></img>
+2. **Systematic Sampling:**
+   - Regular interval selection after a random start.
 
-3. Birch clustering
+3. **Cluster Sampling:**
+   - Randomly selecting clusters from the population.
 
-    <img src="birch.png" width="600" height="400" alt="KMeans Image"></img>
-   
-  
+4. **Stratified Sampling:**
+   - Division of the population into subgroups based on certain criteria.
+
+5. **Bootstrap Sampling:**
+   - Resampling with replacement to create multiple samples from the original dataset.
+
+## Model Evaluation
+
+Following the generation of five distinct samples using the mentioned sampling techniques, five models were applied to each sample.
+<img src="img.png"></img>
+
+
 ## Conclusion
 
-This assignment explores the application of clustering algorithms on the Pokemon dataset with various pre-processing techniques. The results and visualizations provide insights into the performance of different clustering methods under different scenarios.
+This comprehensive approach to model evaluation, utilizing diverse sampling techniques, provides a robust understanding of the fraud detection models' performance across different subsets of the data. The balanced dataset, coupled with the varied samples, ensures a more reliable assessment of model accuracy and effectiveness in detecting fraudulent cases.
 
-Feel free to reach out for any questions or further discussions!
 
