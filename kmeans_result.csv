@@ -1,0 +1,25 @@
+C,Preprocessing,Silhouette,Calinski-Harabasz,Davies-Bouldin
+3,No Preprocessing,0.4307,1463.5931,0.8013
+4,No Preprocessing,0.3627,1311.7538,0.9395
+5,No Preprocessing,0.3419,1160.3957,1.0126
+6,No Preprocessing,0.3202,1115.5606,1.0243
+3,Normalization,0.0033,3.0934,12.8093
+4,Normalization,0.0019,2.6897,11.6455
+5,Normalization,0.0027,2.4273,10.6276
+6,Normalization,0.0021,2.2841,10.3903
+3,Transformation,0.4855,1957.5156,0.6698
+4,Transformation,0.4296,1952.2533,0.7601
+5,Transformation,0.3866,1862.6872,0.8368
+6,Transformation,0.3445,1739.7223,0.9218
+3,PCA,0.4307,1463.5931,0.8013
+4,PCA,0.3627,1311.7538,0.9395
+5,PCA,0.3419,1160.3957,1.0126
+6,PCA,0.3209,1116.051,1.0264
+3,Transformation + Normalization,0.0034,3.045,13.1665
+4,Transformation + Normalization,0.0027,2.6653,11.7363
+5,Transformation + Normalization,0.0025,2.4397,11.094
+6,Transformation + Normalization,0.0014,2.2962,10.9388
+3,Transformation + Normalization + PCA,0.0022,3.2112,13.3852
+4,Transformation + Normalization + PCA,0.0015,2.6754,11.8912
+5,Transformation + Normalization + PCA,0.0028,2.4215,9.7386
+6,Transformation + Normalization + PCA,0.0018,2.2368,10.2265
